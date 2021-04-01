@@ -1,10 +1,7 @@
 const year = 2021
 let date = 0
-let age = 0
-let user = 0
 
-
-document.getElementById('button').addEventListener('click',button)
+document.getElementById('button').addEventListener('click', button)
 
 function button () {
   date = document.getElementById('input').value
