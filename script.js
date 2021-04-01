@@ -98,7 +98,7 @@ function button () {
    document.getElementById('para').innerHTML = (' Test23.0 ')
 
 
- } else if ((date ==== 28) || (date === 1993)) {
+ } else if ((date === 28) || (date === 1993)) {
    document.getElementById('para').innerHTML = (' Test24.0 ')
 
 
