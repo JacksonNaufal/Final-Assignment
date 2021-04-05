@@ -50,8 +50,8 @@ function button () {
     document.getElementById('good').innerHTML = ('Richard Noble set the speed for the fastest speed from a car on earth which was around 600 mp/h, and around 1000 km/h')
     document.getElementById('bad').innerHTML = ('An earthquake, which was a 5.2 on the richter scale , tragically affected New York, and also a civil war broke out in Zimbabwe.')
   } else if (date >= 37) {
-    document.getElementById('good').innerHTML = ('good15')
-    document.getElementById('bad').innerHTML = ('bad15')
+    document.getElementById('good').innerHTML = ('A Famous beauty Queens killer, was finally captured, and was put away in jail.')
+    document.getElementById('bad').innerHTML = ('Indira Ghandi, which was Indias  Prime minister was assassinated, also UK had a miner strike, which also affected them.')
   } else if (date >= 36) {
     document.getElementById('good').innerHTML = ('good16')
     document.getElementById('bad').innerHTML = ('bad16')
