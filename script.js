@@ -53,11 +53,11 @@ function button () {
     document.getElementById('good').innerHTML = ('A Famous beauty Queens killer, was finally captured, and was put away in jail.')
     document.getElementById('bad').innerHTML = ('Indira Ghandi, which was Indias  Prime minister was assassinated, also UK had a miner strike, which also affected them.')
   } else if (date >= 36) {
-    document.getElementById('good').innerHTML = ('good16')
-    document.getElementById('bad').innerHTML = ('bad16')
+    document.getElementById('good').innerHTML = ('The Polaroid 600, and the commodore 128 were invented.')
+    document.getElementById('bad').innerHTML = ('Colombian Terrorists kill 100 people, including 11 judges, and the TWA flight 847, was hijacked, and the rainbow warrior ship sunk.')
   } else if (date >= 35) {
-    document.getElementById('good').innerHTML = ('good17')
-    document.getElementById('bad').innerHTML = ('bad17')
+    document.getElementById('good').innerHTML = ('Halleys Comet was first found, and also the Oprah Winfrey show first debuted in 1986!')
+    document.getElementById('bad').innerHTML = ('The Chernobyl reactor, which was a Soviet Union nuclear reactor was exploded, which released radioactive materials across Europe.')
   } else if (date >= 34) {
     document.getElementById('good').innerHTML = ('good18')
     document.getElementById('bad').innerHTML = ('bad18')
