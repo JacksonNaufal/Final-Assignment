@@ -12,12 +12,12 @@ function button () {
     document.getElementById('good').innerHTML = ('good2')
     document.getElementById('bad').innerHTML = ('bad2')
 
-  } else if (date >= 49)  {
+  } else if (date >= 49) {
     document.getElementById('good').innerHTML = ('good3')
     document.getElementById('bad').innerHTML = ('bad3')
 
   } else if (date >= 48) {
     document.getElementById('good').innerHTML = ('good4')
     document.getElementById('bad').innerHTML = ('bad4')
-   }
+  }
 }
