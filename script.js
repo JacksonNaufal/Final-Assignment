@@ -22,23 +22,18 @@ function button () {
   } else if (date >= 47) {
     document.getElementById('good').innerHTML = ('good5')
     document.getElementById('bad').innerHTML = ('bad5')
-  }
   } else if (date >= 46) {
     document.getElementById('good').innerHTML = ('good6')
     document.getElementById('bad').innerHTML = ('bad6')
-  }
   } else if (date >= 45) {
     document.getElementById('good').innerHTML = ('good7')
     document.getElementById('bad').innerHTML = ('bad7')
-  }
   } else if (date >= 44) {
     document.getElementById('good').innerHTML = ('good8')
     document.getElementById('bad').innerHTML = ('bad8')
-  }
   } else if (date >= 43) {
     document.getElementById('good').innerHTML = ('good9')
     document.getElementById('bad').innerHTML = ('bad9')
-  }
   } else if (date >= 42) {
     document.getElementById('good').innerHTML = ('good10')
     document.getElementById('bad').innerHTML = ('bad10')
