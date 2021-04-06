@@ -107,12 +107,12 @@ function button () {
   }
 }
 
-  function button2 () {
-   age = document.getElementById('input2').value
-   age = parseInt(age)
-   number = year - age
-   document.getElementById('def').innerHTML =
-   ('Were you born in')
+function button2 () {
+  age = document.getElementById('input2').value
+  age = parseInt(age)
+  number = year - age
+  document.getElementById('def').innerHTML =
+  ('Were you born in')
    document.getElementById('guesser').innerHTML =
    number
- }
+}
