@@ -101,8 +101,8 @@ function button () {
     document.getElementById('good').innerHTML = ('Although 1999 was mainly bad, it had some good things, especially in scientific breakthroughs, when Chromeson 22 was deciphered, etc.')
     document.getElementById('bad').innerHTML = ('1999 was a bad year, it was horrible economic-wise, and it was also bad fighting-wise. NATO bombed Yugoslavia, Turkey was shaken by a terrible earthquake, India and Pakistan fight over Kashmir, and also Russia sweeps Chechen, with illegal forces, and many more etc.')
   } else if (date >= 21) {
-    document.getElementById('good').innerHTML = ('good31')
-    document.getElementById('bad').innerHTML = ('bad31')
+    document.getElementById('good').innerHTML = ('The most famous and most infamous thing to come from the year 2000 is that the world did not end with Y2k, and during this time, it was the prime time for pop music!')
+    document.getElementById('bad').innerHTML = ('The famous millennium dome was opened, but it did not last very long, Pierre Elliot Trudeau, who used to be a prime minister of Canada, passed away, also Hedy Lamarr, who was a famous actress, and Alec Guinness, who was also a famous actor, passed away.')
   }
 }
  function button2 () {
