@@ -1,6 +1,7 @@
 let date = 0
 const year = 2021
 let age = 0
+let number = 0
 
 document.getElementById('button').addEventListener('click', button)
 document.getElementById('button2').addEventListener('click', button2)
