@@ -1,6 +1,9 @@
 let date = 0
+const year = 2021
+let age = 0
 
 document.getElementById('button').addEventListener('click', button)
+document.getElementById('button2').addEventListener('click', button2)
 
 function button () {
   document.getElementById('good').style.color = 'green'
@@ -77,14 +80,14 @@ function button () {
     document.getElementById('good').innerHTML = ('Microsoft released windows 3.1, and Bill Clinton was elected as president of the United States.')
     document.getElementById('bad').innerHTML = ('')   
   } else if (date >= 28) {
-    document.getElementById('good').innerHTML = ('good24')
-    document.getElementById('bad').innerHTML = ('bad24')
+    document.getElementById('good').innerHTML = ('Canadas first-ever Prime Minister was elected, also South African leaders get the Noble Prize')
+    document.getElementById('bad').innerHTML = ('Nasa loses contact with mars space observer spacecraft during august, which forced the mission to come to an abrupt end.')
   } else if (date >= 27) {
-    document.getElementById('good').innerHTML = ('good25')
-    document.getElementById('bad').innerHTML = ('bad25')
+    document.getElementById('good').innerHTML = ('The famous movie "The Lion King" was released, OJ Simpson police chase happened, due to his illegal activity. ')
+    document.getElementById('bad').innerHTML = ('Famous songwriter and musician Kurt Cobain committed suicide, which shocked the music industry.')
   } else if (date >= 26) {
-    document.getElementById('good').innerHTML = ('good26')
-    document.getElementById('bad').innerHTML = ('bad26')
+    document.getElementById('good').innerHTML = ('The US rescues Mexicos economy, with a 20 billion dollar fund aid, Russian space station, Mir greets first Americans! ')
+    document.getElementById('bad').innerHTML = ('The Rwanda massacre occurred, killing 2,000 people, and fighting escalates in Bosnia and Croatia, and finally Nerve gas attack in Tokyo subway, kills 8, and injures thousands.')
   } else if (date >= 25) {
     document.getElementById('good').innerHTML = ('good27')
     document.getElementById('bad').innerHTML = ('bad27')
@@ -102,3 +105,13 @@ function button () {
     document.getElementById('bad').innerHTML = ('bad31')
   }
 }
+ function button2 () {
+  age = document.getElementById('input2').value
+  age = parseInt(age)
+  number = year - age
+  document.getElementById('def').innerHTML = 
+  ('Were you born in')
+  document.getElementById('guesser').innerHTML =
+  number
+ }
+
