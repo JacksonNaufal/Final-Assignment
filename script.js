@@ -113,6 +113,6 @@ function button2 () {
   number = year - age
   document.getElementById('def').innerHTML =
   ('Were you born in')
-   document.getElementById('guesser').innerHTML =
-   number
+  document.getElementById('guesser').innerHTML =
+  number
 }
