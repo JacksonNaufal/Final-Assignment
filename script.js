@@ -63,7 +63,7 @@ function button () {
     document.getElementById('good').innerHTML = ('Halleys Comet was first found, and also the Oprah Winfrey show first debuted in 1986!')
     document.getElementById('bad').innerHTML = ('The Chernobyl reactor, which was a Soviet Union nuclear reactor was exploded, which released radioactive materials across Europe.')
   } else if (date >= 34) {
-    document.getElementById('good').innerHTML = (' ')     
+    document.getElementById('good').innerHTML = ('The Famous Baby M Case was announced because it had speculations, which were both positive and negative.')
     document.getElementById('bad').innerHTML = ('India Invaded pakistan, riots were breaking out in Haj, and a famous rebellion called intifada, begins')
   } else if (date >= 33) {
     document.getElementById('good').innerHTML = ('The longest undersea tunnel opens, and it is available for transportation!')
@@ -79,7 +79,7 @@ function button () {
     document.getElementById('bad').innerHTML = ('Rajiv Gandhi was killed, air strikes in Iraq, and they were in the Gulf of war')
   } else if (date >= 29) {
     document.getElementById('good').innerHTML = ('Microsoft released windows 3.1, and Bill Clinton was elected as president of the United States.')
-    document.getElementById('bad').innerHTML = ('')   
+    document.getElementById('bad').innerHTML = ('There were many famous controversies in 1992, like the Sinead OConnor, who was alleged to rip up a photo of John Paul II after alleged child abuse allegations.')
   } else if (date >= 28) {
     document.getElementById('good').innerHTML = ('Canadas first-ever Prime Minister was elected, also South African leaders get the Noble Prize')
     document.getElementById('bad').innerHTML = ('Nasa loses contact with mars space observer spacecraft during august, which forced the mission to come to an abrupt end.')
@@ -96,7 +96,7 @@ function button () {
     document.getElementById('good').innerHTML = ('Famous Titanic movie premiers in the US, Oasis breaks album to record, and also Harry Potter and the philosophers stone is Published.')
     document.getElementById('bad').innerHTML = ('Famous American songwriter and singer Jeff Buckley passed away, and also Princess Diana passed away in a car crash.')
   } else if (date >= 23) {
-    document.getElementById('good').innerHTML = ('  ')   
+    document.getElementById('good').innerHTML = ('John Glenn returned to space! Also, famous baseball play Mark McGwire breaks the single-season home run record!')
     document.getElementById('bad').innerHTML = ('US embassys bombings, located in Dar es salaam, Tanzania, and Nairobi, Kenya')
   } else if (date >= 22) {
     document.getElementById('good').innerHTML = ('Although 1999 was mainly bad, it had some good things, especially in scientific breakthroughs, when Chromeson 22 was deciphered, etc.')
