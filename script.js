@@ -106,6 +106,7 @@ function button () {
     document.getElementById('bad').innerHTML = ('The famous millennium dome was opened, but it did not last very long, Pierre Elliot Trudeau, who used to be a prime minister of Canada, passed away, also Hedy Lamarr, who was a famous actress, and Alec Guinness, who was also a famous actor, passed away.')
   }
 }
+
  function button2 () {
   age = document.getElementById('input2').value
   age = parseInt(age)
