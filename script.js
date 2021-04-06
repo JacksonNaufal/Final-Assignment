@@ -9,7 +9,7 @@ const min = 21
 document.getElementById('button').addEventListener('click', button)
 document.getElementById('button2').addEventListener('click', button2)
 
-while(guess > birth || guess < min ) {
+ while(guess > birth || guess < min) {
   guess = prompt('Enter your age!')
   guess = parseInt(guess)
   if (guess < min) {
