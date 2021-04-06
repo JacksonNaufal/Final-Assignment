@@ -10,17 +10,17 @@ document.getElementById('button').addEventListener('click', button)
 document.getElementById('button2').addEventListener('click', button2)
 
 while (guess > birth || guess < min ) {
-guess = prompt('Enter your age!')
-  guess = parseInt(guess) 
+  guess = prompt('Enter your age!')
+  guess = parseInt(guess)
   if (guess < min) {
   alert('You are to young for this programs only ages between the ages 21 and 51 are elligible!') 
-} else if (guess > birth) {
-  alert('You are to old for this program, only ages between 21 and 51 are elligible.')
-} else if (guess < birth || guess < min) {
-  alert('You are within the right age to use this program (ages are 21 - 51)')
+  } else if (guess > birth) {
+    alert('You are to old for this program, only ages between 21 and 51 are elligible.')
+  } else if (guess < birth || guess < min) {
+    alert('You are within the right age to use this program (ages are 21 - 51)')
+  }
 }
-} 
-alert('You shall proceed!') 
+alert('You shall proceed!')
 
 function button () {
   document.getElementById('good').style.color = 'green'
