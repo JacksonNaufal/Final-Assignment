@@ -21,9 +21,9 @@ while (guess > birth || guess < min) {
   } else if (guess < birth || guess < min) {
     alert('You are within the right age to use this program (ages are 21 - 51)')
   } else if (guess === 'Ok') {
-    //user didnt type anything
+    // user didnt type anything
   } else if (guess === 'Cancel') {
-    //user clicked cancel
+    // user clicked cancel
   }
 }
 alert('You shall proceed!')
@@ -143,5 +143,4 @@ function button2 () {
   number
 }
 
-//This is a short function, with a little bit of information, that allows my program to know that, oh, you entered a number into the input box since I'm taking the value of what's inputted into the box, then it takes the year and subtracts it by the age, which allows it to get a number that will display using the get element by id, showing the number on the inner HTML, which was also used to display the def text and the text on the other functions.
-
+// This is a short function, with a little bit of information, that allows my program to know that, oh, you entered a number into the input box since I'm taking the value of what's inputted into the box, then it takes the year and subtracts it by the age, which allows it to get a number that will display using the get element by id, showing the number on the inner HTML, which was also used to display the def text and the text on the other functions.
