@@ -5,9 +5,11 @@ let number = 0
 let guess = 0
 const birth = 51
 const min = 21
+// These are Variables that allow the program to know what the value of certain words are if they are used correctly, like, year = 2021, which allows my code to know that the word "year" -s value is equivalent to 2021.
 
 document.getElementById('button').addEventListener('click', button)
 document.getElementById('button2').addEventListener('click', button2)
+// These are event listeners. These allow the program to function, whether it is letting the program know what to "click," and they also gather the information to know what function you want to command when you click a certain button.
 
 while (guess > birth || guess < min) {
   guess = prompt('Enter your age!')
@@ -18,9 +20,15 @@ while (guess > birth || guess < min) {
     alert('You are to old for this program, only ages between 21 and 51 are elligible.')
   } else if (guess < birth || guess < min) {
     alert('You are within the right age to use this program (ages are 21 - 51)')
+  } else if (guess === 'Ok') {
+    //user didnt type anything
+  } else if (guess === 'Cancel') {
+    //user clicked cancel
   }
 }
 alert('You shall proceed!')
+
+// These are while loops, where if you use variables, and you import them into an equation like if ones greater than the other, etc. It will know what sort of number or words you chose, and if the user guesses the write number/ word, it will let them enter your website, but if they enter the wrong information, it might let them enter depending on how you want your program/website to work.
 
 function button () {
   document.getElementById('good').style.color = 'green'
@@ -123,6 +131,8 @@ function button () {
   }
 }
 
+// This is a function that is extremely long, with a large amount of information, basically each of these if or else if statements are associated with a number, whether that's 20, 21, 36, 41, 51, etc, and basically if the user enters these numbers, it will tell them a fun fact, written in a certain colour, that meaning if its good facts, it will be written in green, and if it is bad, it will be written in red. Furthermore, it knows what to write in green and red because I have a get element by id that directs it to a certain colour, based on what id it uses.
+
 function button2 () {
   age = document.getElementById('input2').value
   age = parseInt(age)
@@ -132,3 +142,6 @@ function button2 () {
   document.getElementById('guesser').innerHTML =
   number
 }
+
+//This is a short function, with a little bit of information, that allows my program to know that, oh, you entered a number into the input box since I'm taking the value of what's inputted into the box, then it takes the year and subtracts it by the age, which allows it to get a number that will display using the get element by id, showing the number on the inner HTML, which was also used to display the def text and the text on the other functions.
+
